@@ -1,0 +1,443 @@
+/*color pallette:#edffb2, #98D284, #73A46B, #425646
+*/
+
+nav ul{
+  padding:3px;
+  display:block;
+}
+
+nav ul li{
+  border-top:1px #edffb2 solid;
+  list-style-type:none;
+  background-color:#425646;
+  font-family:"Arimo", Helvetica, sans-serif;
+  font-weight:700;
+  font-size: 1.2em;
+  /*float:left;*/
+  margin:0;
+  padding:0;
+  /*width:25%;*/
+}
+
+nav ul li a:link, a:visited{
+  text-decoration:none;
+  color:#FFF;
+  display:block;
+  text-align:center;
+  padding: 20px 30px;
+}
+
+nav ul li a:active, a:hover{
+   background-color:#4a604e;
+ }
+
+ a:link, a:visited{
+   text-decoration:none;
+   font-family:"Catamaran", Arial, sans-serif;
+   color:#FFF;
+   font-weight:200;
+ }
+
+.submenu{
+  display:none;
+}
+
+.submenu li{
+  font-family: "Arimo", Helvetica, sans-serif;
+  font-size: 1em;
+  font-style:italic;
+  color:white;
+  border-top: 1px #edffb2 solid;
+}
+
+.sidebar li{
+  font-family:"Catamaran", Arial, sans-serif;
+  color:#FFF;
+  font-weight:200;
+  list-style-type:none;
+}
+
+body{
+  text-align:center;
+  background-color:#e0e0db;
+}
+
+
+p{
+  font-family: "Domine", "Times New Roman", serif;
+  weight:300;
+  color:black;
+  font-size:1em;
+  line-height:1.2em;
+}
+
+h1{
+  font-family:"Bree Serif", Georgia, "Times New Roman", serif;
+  font-weight:400;
+  color:#edffb2;
+}
+
+header{
+  display:flex;
+  flex-flow: row;
+  align-items:baseline;
+  background-color:#425646;
+  margin:0;
+  padding:0 10px;
+  border-bottom:#73A46B 15px solid;
+}
+
+hr{
+  background-color:#98D284;
+  height:15px;
+  margin:0;
+  border:none;
+}
+
+h2{
+  font-family:"Catamaran", Arial, sans-serif;
+  font-size:1.8em;
+  font-weight:500;
+  color:#425646;
+}
+
+h3{
+  font-family:"Catamaran", Arial, sans-serif;
+  font-weight:500;
+  font-style:italic;
+  text-decoration:underline;
+  font-size:1.5em;
+  color:#000;
+  margin:0;
+}
+
+.bio li{
+  list-style-type:circle;
+  font-family:"Domine", "Times New Roman", sans-serif;
+}
+
+.bio a:link, .bio a:visited{
+  color:#000;
+  text-decoration:underline;
+}
+
+.bio a:active, .bio a:hover{
+  background:#edffb2;
+}
+
+.wrapper{
+  background:#fff;
+  display:flex;
+  justify-content:space-around;
+}
+
+.container{
+  border-top: #edffb2 15px solid;
+  background:#fff;
+}
+
+.sidebar{
+  flex: 1 auto;
+  background:#425646;
+  text-align:center;
+  width:100%;
+  margin:10px auto;
+}
+
+.sidebar h3{
+  color:#fff;
+}
+
+.main{
+  text-align:left;
+  max-width:550px;
+  min-width:325px;
+  margin-bottom:0;
+}
+
+.education{
+  padding:10px;
+  margin-top:0;
+}
+
+.experience{
+  padding:10px;
+}
+
+.clips{
+  display:block;
+  flex:1 auto;
+  max-width:300px;
+  text-align:left;
+  margin:15px;
+  border: #425646 2px solid;
+  background-color:  #edffb2;
+}
+
+.preview{
+  background: #edffb2;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.clips h2{
+  padding-left:10px;
+  display:block;
+  background-color: #425646;
+  color: #fff;
+  width:98%%;
+}
+
+.preview img{
+  display:flex;
+  width:auto;
+  width:40%;
+  margin-right:10px;
+  float:left;
+}
+
+.clips a:link, .clips a:visited{
+  text-decoration:underline;
+  color:#000;
+}
+
+.clips a:hover, .clips a:active{
+  background-color:#e1f59e;
+}
+
+.dateline{
+  font-family: Garamond, "Times New Roman", serif;
+  font-size:0.8em;
+  line-height:0.2em;
+}
+
+.right-box{
+  display:flex;
+  flex-flow:column;
+  float:right;
+}
+
+.bio{
+  display:flex;
+  flex-flow:column;
+  text-align:left;
+  padding:15px;
+  background:#FFF;
+  border:#425646 5px solid;
+}
+
+.footer{
+  background:#73A46B;
+  font-size:1em;
+  padding:5px;
+  margin:0;
+}
+
+.footer a:link, .footer a:visited{
+  color:#000;
+}
+
+.footer a:active, .footer a:hover{
+  background:#86cc97;
+}
+
+iframe{
+  margin-bottom:15px;
+}
+
+/*.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	/*padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}*/
+
+.sidebar, .main{
+  flex:1 100%;
+  padding:5px;
+}
+
+ .main-photo{
+   width:250px;
+   height:343px; /*1.3733 ratio*/
+   padding:10px;
+   margin-bottom:10px;
+   float:left;
+   border:none;
+ }
+
+ .menu-trigger{
+   order:1;
+   margin-right:20px;
+ }
+
+
+ nav ul{
+   display:none;
+ }
+
+ .document{
+   background:#fff;
+   width:80%;
+   margin:0 auto;
+   padding:1.2em;
+   text-align:left;
+   max-width:875px;
+   border: #425646 1px solid;
+   box-shadow: 5px 5px 5px #888;
+ }
+
+ .explainer{
+   text-align:left;
+   max-width:800px;
+   margin:0 auto;
+ }
+
+ .explainer a:link, .explainer a:visited{
+   font-family:"Catamaran", Arial, sans-serif;
+   color:#000;
+   font-weight:200;
+ }
+
+ .explainer a:active, .explainer a:hover{
+   background:#edffb2;
+ }
+
+
+  /*@media screen and (min-width:700px){
+    nav ul{
+      flex-flow:column;
+      justify-content:flex-end;;
+    }
+  }*/
+
+@media all and (max-width:599px){
+  .bio{
+    display:flex;
+    flex-direction:column;
+    border:none;
+    flex: 1 auto;
+  }
+
+  .main {
+    width:90%;
+  }
+
+  .education{
+    max-width:80%;
+    margin:0 auto;
+    text-align:left;
+    padding:none;
+  }
+
+  .education h3{
+    text-align:center;
+  }
+
+  .experience{
+    width:80%;
+    margin:0 auto;
+    text-align:left;
+    padding:none;
+  }
+
+  .experience h3{
+    text-align:center;
+  }
+
+  .main-photo{
+    width:100%;
+    height:0%;
+    display:flex;
+  }
+
+  .wrapper{
+    display:flex;
+    flex-flow:column;
+  }
+
+  .right-box{
+    display:flex;
+    flex-flow:column;
+    width:100%;
+    margin:0 auto;
+    flex:1 auto;
+  }
+
+  .clips{
+    max-width:100%;
+    margin:0;
+  }
+
+  .sidebar{
+    width:100%;
+    margin-bottom:0;
+    margin-top:0;
+  }
+}
+
+@media all and (min-width: 60px){
+    .clips{
+      min-width:250px;
+    }
+
+    .main-photo{
+      width:50%;
+      height:auto;
+    }
+}
+
+
+@media all and (min-width:750px){
+  nav ul li{
+    border-top:none;
+  }
+
+  nav ul{
+    display:flex;
+  }
+
+  header h1{
+    order:1;
+  }
+
+  nav{
+    order:2;
+  }
+
+  .menu-trigger{
+    display:none;
+  }
+
+  .sidebar{
+    text-align:left;
+  }
+
+}
+
+@media all and (min-width:800px){
+  .wrapper{
+    align-items:stretch;
+    display:flex;
+    flex-flow:row;
+  }
+
+  .sidebar{
+    flex:1 auto;
+    margin:5px auto;
+    width:295px;
+  }
+
+  .main{
+    display:block;
+    width:100%;
+  }
+
+}
